@@ -1,13 +1,4 @@
-# Starter pipeline
-- task: UiPathRunJob@2
-  inputs:
-    orchestratorConnection: 'Connection_to_Uipath_Orchestrator'
-    processName: 'RPA_DEVops'
-    folderName: 'RPA_DEVOPS'
-    user: 'desktop-69ebsmc\admin'
-# Start with a minimal pipeline that you can customize to build and deploy your code.
-# Add steps that build, run tests, deploy, and more:
-# https://aka.ms/yaml
+
 
 trigger:
 - main
@@ -23,3 +14,14 @@ steps:
     echo Add other tasks to build, test, and deploy your project.
     echo See https://aka.ms/yaml
   displayName: 'Run a multi-line script'
+
+# Starter pipeline
+- task: UiPathRunJob@2
+  inputs:
+    orchestratorConnection: 'Connection_to_Uipath_Orchestrator'
+    processName: 'RPA_DEVops'
+    folderName: 'RPA_DEVOPS'
+    user: 'desktop-69ebsmc\admin'
+# Start with a minimal pipeline that you can customize to build and deploy your code.
+# Add steps that build, run tests, deploy, and more:
+# https://aka.ms/yaml
