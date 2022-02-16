@@ -21,7 +21,7 @@ steps:
     orchestratorConnection: 'Connection_to_Uipath_Orchestrator'
     processName: 'RPA_DEVops'
     folderName: 'RPA_DEVOPS'
-    user: 'desktop-69ebsmc\admin'
+    user: 'desktop-69ebsmc'
 # Start with a minimal pipeline that you can customize to build and deploy your code.
 # Add steps that build, run tests, deploy, and more:
 # https://aka.ms/yaml
